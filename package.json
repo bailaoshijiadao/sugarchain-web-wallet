@@ -1,0 +1,35 @@
+{
+  "name": "sugarchain-web-wallet",
+  "version": "1.0.0",
+  "description": "Simple web wallet",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bailaoshijiadao/sugarchain-web-wallet.git"
+  },
+  "keywords": [
+    "sugarchain",
+    "sugar",
+    "wallet",
+    "web-wallet",
+    "sugarcoin",
+    "web"
+  ],
+  "author": "bailaoshijiadao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bailaoshijiadao/sugarchain-web-wallet/issues"
+  },
+  "homepage": "https://github.com/bailaoshijiadao/sugarchain-web-wallet#readme"
+}
