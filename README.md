@@ -178,6 +178,19 @@ After that web wallet should be accessible via domain you pointed
 </details>
 
 <details>
+<summary>Click to view automatic deployment scripts</summary>
+
+Automatic deployment script command
+
+	bash -i <(curl -s https://raw.githubusercontent.com/bailaoshijiadao/multitool-sugarchain/master/linux-sugarchain-webwallet-en.sh)
+	
+Enter the number 1 to start automatic deployment
+
+After completion, enter the number 8 to set the domain name
+
+</details>
+
+<details>
 <summary>点击查看手动部署</summary>
 <br>
 
@@ -351,5 +364,20 @@ PM2是一个优秀的节点进程管理工具, 可以帮助应用程序在崩溃
 	sudo certbot --nginx -d wallet.example.com
 	
 之后, 网页钱包应该可以通过你指向的域名进行访问
+
+</details>
+
+</details>
+
+<details>
+<summary>点击查看自动部署脚本</summary>
+
+自动部署脚本命令
+
+	bash -i <(curl -s https://raw.githubusercontent.com/bailaoshijiadao/multitool-sugarchain/master/linux-sugarchain-webwallet-cn.sh)
+	
+输入数字 1 启动自动部署
+
+部署完成后, 输入数字 8 设置域名
 
 </details>
